@@ -14,7 +14,7 @@ function distanceBetweenPoints(p1, p2) {
 function determinePointPairByDistanceComparator(points, distanceComparatorFn) {
   if (points.length < 2)
     throw new Error(
-      'determineClosestPoints requires an array of points with at least two points'
+      'determinePointPairByDistanceComparator requires an array of points with at least two points'
     );
 
   const pointPair = {
